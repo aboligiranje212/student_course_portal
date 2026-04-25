@@ -24,7 +24,7 @@ class App extends Component {
         <Switch>
           <Route
             exact
-            path="/student-course-portal/'"
+            path="/'"
             render={(props) => (
               <CourseList {...props} courses={this.state.courses} />
             )}
